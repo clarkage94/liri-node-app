@@ -96,7 +96,7 @@ function makeChoice(choice, usrInput){
 			doTheThing(choice, usrInput);
 			break;
 		default:
-			console.log("Please try again with a valid action.");
+			console.log("Try entering one of the proper commands: my-tweets, spotify-this-song, movie-this, do-what-it-says");
 			break;
 	}
 }
